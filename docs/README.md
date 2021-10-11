@@ -3,7 +3,7 @@
 
 # Informe Técnico 
 ## Curso: Estructura de datos
-### Detección y reidentificación de caras en secuencias de imágenes o video
+### Implementación de la primera historia de usuario
 
 **Alumnos:**
 
@@ -12,100 +12,112 @@
 
 ## Resumen 
 
-> Agregar un resumen que describa el trabajo realizado y sus resultados. (Entre 150 y 180 palabras)
-> Más cosas...
-> El resumen indicarlo como cita con el comando `>`
+> El trabajo realizado buscaba implementar la primera historia de usuario del sistema, la cual buscaba que el guardia pudiera observar todas la caras detectadas en las pantallas y que estas fueran identificadas por un rectángulo rojo, para así, observar visualmente las caras que fueron correctamente detectadas por el algoritmo.<br /> <br />El resultado del trabajo fue la implementación de esa historia de usuario en código C++ con la ayuda de la librería OpenCV. Terminamos implementando un codigo que permitía detectar caras en cualquier imagen. Cabe mencionar, que la detección es visualmente representada por un cuadrado rojo que enmarca las caras detectadas.
+
+
 
 ## 1. Introducción
 
-La primera función de un reporte técnico es plasmar la información necesaria para que otras personas puedan reproducir el sistema propuesto o puedan entender su fucnionamiento . Para cumplir anterior se debe diferenciar claramente entre los artefactos de diseño e implementación. En el caso de un desarrollo tecnológico los algoritmos son importantes como componente de diseño y los programas generalmente son irrelevantes y deben resumidos o agregados en anexos en el documento. Los programas no son importantes en el documento, salvo si se quiere explicar conceptos expecíficos del lenguaje o del algoritmo implementado.
+El presente trabajo busca la implementación de la primera historia de usuario. La cual es:
 
-La redacción debe ser formal y de modo impersonal. No se debe utlizar primera persona del singular o plural. Se debe evitar el uso de cualquier calificativo sustituyéndolo siempre utilizando datos concretos y rastreables en documentos o publicaciones a través de referencias bibliográficas. Por ejemplo, no calificar algo como: "muy importante", "sustancial", "muy usadoo" o "mucho mejor".
+> “COMO guardia QUIERO observar todas las caras detectadas en pantalla identificadas por un rectángulo de color rojo PARA observar visualmente las caras que fueron correctamente detectadas por el algoritmo.”
 
-Las comparaciones deben concretarse con hechos y datos, sin frases ambiguas o términos generales. Por ejemplo, nunca se debe redactar frases como "el método es mejor que el método B". Lo correcto es decir, el error promedio de el método A es de 5 %, correspondiendo a la mitad del error de 10% obtenido utilizando el método B". El tiempo verbal es usualmente presente. No se debe perder de vista que se está explicando ”como hacer algo”, en vez de ”qué se hizo”. Todo aspecto circunstancial es irrelevante para el documento. Por ejemplo, si se ha desarrollado en el laboratorio X, o en el curso Y, con el profesor Z, etc.
+Lo primero que se hace es buscar dos imágenes que sirvan para probar el funcionamiento del programa a implementar. Lo importante es utilizar una imagen que muestra solo un rostro y otra imagen con múltiples rostros, para así observar el funcionamiento del programa en dos casos importantes de funcionamiento. En la presente ocasión, se utilizaron las imágenes, “lena.jpg” y “kids.png”.
+
+Una vez que se yienes la imagen se debe, estandarizar todos los aspectos en la imagen que queremos procesar, detectar las coordenadas de los caras humanas en la imagen, enmarcar en rojo las caras detectadas y al final, mostrar la imagen original con las enmarcaciones.
 
 ### 1.1 Descripción del problema
 
-Dado el laboratorio describir como se entiende el problema bajo sus propias palabras.
+El problema es que se le resulta difícil a un humano detectar rápido y eficazmente los rostros de personas, ya sea en una foto o un video de una cámara de vigilancia y al mismo tiempo recordarlos y apuntarlos.
 
 ### 1.2 Objetivos 
 
 **Objetivo General**
 
-El fin que se desea llegar. (Comenzar con un verbo: "Construir un sistema...", "Desarrollar un sistema...", etc)
+
+Implementar un sistema que perimita identificar visualmente con un rectangulo rojo a todas las caras humanas identificadas en una imagen.
 
 **Objetivos específicos**
 
-1. Objetivo 1
-2. Objetivo 2
-3. Objetivos 3
-
-Los objetivos específicos son acciones específicas que son desarrolladas para lograr cumplir el objetivo general, por ejemplo:
-
-1. Investigar  el  estado  del  arte  de  visión  por  computador  y  audio  para  resolver  tareas de  clasificación unimodal y multimodal aplicado  al  problema  de  reconocimiento  de emociones.
-2.  Seleccionar  uno  o  dos  métodos  estudiados  en  el  estado  del  arte  para  la  estimación  de  laemoción utilizando datos unimodales o multimodales.
-3.  Implementar los métodos seleccionados utilizando el lenguaje de programación Python y laslibrerías suministradas por Pytorch.
-4.  Validar  los  resultados  por  medio  bases  de  datos  especializadas  para  el  desarrollo  deaplicaciones basadas en la estimación de la emoción y que incluyan varios modos de atributoscomo: imágenes, sonido y/o texto.
-5.  Proponer  mejoras  a  los  modelos  implementados  para  mejorar  su  desempeño  en  futurasimplementaciones o proyectos de investigación.
-6.  Difundir los resultados en medios científicos nacionales o internacionales.
+1. Estandarizar todos los aspectos en la imagen que queremos procesar. 
+2. Detectar las coordenadas de los caras humanas en la imagen.
+3. Enmarcar en rojo las caras detectadas. 
+4. Mostrar la imagen original con las enmarcaciones.
 
 ### 1.3 Solución propuesta
 
-Esbozo de la solución propuesta, se espera que esta vaya evolucionando a medida que se avanza en el proyecto.
+Detectar y identificar visualmente cars humanas en una imagen con ayuda de la libreria OpenCv, especificamente con el uso de “haarcascade_frontalface_alt.xml” de la clase CascadeClassifier.
 
 ## 2. Materiales y métodos
 
-Explicar brevemente como se espera desarrollar el trabajo de implementación.
+Los materiales utilizados fueron el IDE Visual Studio 2019 y la librería OpenCV.
+
+Los métodos utilizados fueron mencionados en la introducción del presente informe.
+
 
 ### 2.1 Instalación
+Librería:
+- OpenCV
 
-Describir brevemente las librerías utilizadas para la instalación y programas utilizados para la ejecución del código. (Agregar una sección de anexo para describir como fueron instaladas las librerías de OpenCV y la IDE utilzada para el trabajo)
+IDE:
+- Visual Studio 2019
+
+[Guía de Instalación](https://www.youtube.com/watch?v=Hu7ArOaFm2g&feature=youtu.be)
+
 
 ### 2.2 Diseño 
 
-Explicar los componentes (módulos o clases) utilizados para resolver el problema. Indicar arquitectura propuesta, diagrama de clases u otro artefacto que estime conveniente para explicar el diseño de su implimentación.
+Los modulos y clases de OpenCv utilizados se encuentran mencionados y explicados en la sección 2.3 del informe.
+
+La arquitectura del proyecto es la default de un programa en C++ ejecutable por consola.
 
 ### 2.3 Implementación
 
-Explicar brevemente algunos aspectos de implementación: Por ejemplo, detector de caras utilizado. Se pueden realizar pequeñas reseñas al código para indicar elementos importantes en el trabajo.
+Para reproducir el sistema propuesto por la primera historia de usuario, se utiliza C++ y la librería OpenCV. OpenCV facilita la tarea de detectar las caras en las fotos, ya que aquella librería cuenta con clasificadores en cascada entrenados específicamente para la detección de rostros. Cabe mencionar que los clasificadores de rostros y de otros objetos se encuentran almacenados en archivos XML. En la descarga de OpenCV se encuentran incluidos los clasificadores y también todas las herramientas para crear alguno específico a otro objeto que no se encuentre disponible.
 
-Por ejemplo, 
+Para poder detectar caras en una imagen, lo primero que se debe hacer es cargar la imagen en la cual se quiere detectar caras. Lo siguiente es convertir la imagen a escala de grises, lo cual es necesario para que los algoritmos de detección de la librería OpenCV funcionen correctamente. En el presente código se utilizó:
 
-#### Detector de caras
+>cvtColor(imagen, gray, COLOR_BGR2GRAY);
 
-El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código para detectar una cara en una imagen se muestra a continuación:
+Luego de convertir la imagen a escala de grises, se debe aplicar ecualización de histograma a la imagen en grises para estandarizar el contraste y brillo de la imagen, para que el algoritmo sea más eficaz al detectar las caras presentes en la imagen.
 
-```c++
- 1. faceCascadePath = "./haarcascade_frontalface_default.xml";
- 2. faceCascade.load( faceCascadePath )
- 3. std::vector<Rect> faces;
- 4. faceCascade.detectMultiScale(frameGray, faces);
+> equalizeHist(gray, dest);
 
- 5. for ( size_t i = 0; i < faces.size(); i++ )
- 6. {
- 7.  int x1 = faces[i].x;
- 8.  int y1 = faces[i].y;
- 9.  int x2 = faces[i].x + faces[i].width;
-10.  int y2 = faces[i].y + faces[i].height;
-11. }
-```
-La primera linea carga el archivo de entrenamiento... etc
+Una vez que la imagen se encuentra procesada, se le pasa el nombre del clasificador al método load de la clase CascadeClassifier. Para detectar caras desde el frente, usaremos “haarcascade_frontalface_alt.xml”. En el presente código se utilizó:
+
+> CascadeClassifier detector;
+
+Ya que el archivo se encontraba en la carpeta del proyecto. Una vez que se puede abrir el clasificador, se pueden detectar las caras en las imágenes. Las coordenadas de las caras detectadas se guardan en una variable llamada rect. 
+
+> vector<Rect> rect;
+
+>detector.detectMultiScale(dest, rect);
+
+El presente código recorre los rectángulos encontrados por el algoritmo y los enmarca con rectángulos rojos en la imagen original.
+
+> for (Rect rc : rect)
+
+>	{
+
+>rectangle(imagen, Point(rc.x, rc.y), Point(rc.x + rc.width, rc.y + rc.height), CV_RGB(255,4,0), 2);
+
+>	}
+
+Al final, la imagen original con las enmarcaciones es mostrada gracias a:
+
+> imshow("Imagen original", imagen);
 
 ## 3. Resultados obtenidos
 
+Sin importar la imagen, el resultado obtenido será el mismo. Una imagen con las caras humanas enmarcadas en rojo.
+
 ## 4. Conclusiones
 
-# Anexos
+La librería OpenCV hace que el trabajo de detección de rostros no sea largo y tedioso, ya que la librería cuenta con un algoritmo de detección que ya se 
+encuentra entrenado para identificar caras humanas.
+# Referecias
 
-## Anexo A: Instalación librerías OpenCV
-
-## Anexo B: Instalación de IDE y configuración librerías OpenCV
-
-# Referecia
-
-Indicar los libros, páginas web, documentos, etc. Utilizados en el trabajo. Por ejemplo:
-
-1. MONTERO, J.,Metodos matemáticos aplicados a la ganadería.3aed. Sevilla: Ediciones de la pradera,2007.
-2. LVARADO,   J.   P.,¿Qué   debe   contener   un   artículo   científico?.http://www.ie.tec.ac.cr/palvarado/pmwiki/index.php/MSc/Art\%c3\%adculoCient\%c3\%adfico. Fe-cha de acceso:13/Nov/2018
+1. Wu, W. H., Zhao, Y. J., & Che, Y. F. (2014). Research and Implementation of Face Detection Based on OpenCV. Advanced Materials Research, 971-973, 1710-1713. doi:10.4028/www.scientific.net/amr.971-973.1710
+2. Kaehler, A., & Bradski, G.R. (2016). Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library.
 
 

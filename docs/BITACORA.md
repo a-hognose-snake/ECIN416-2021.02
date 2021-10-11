@@ -11,3 +11,10 @@
 | 07/OCT | 01 | Investigar código fuente de OpenCV | ValeHenriquez  <br />a-hognose-snake |  1 horas | 1 horas 
 | 08/OCT | 01 | Crear carpetas y archivos .md | a-hognose-snake |  0.5 horas | 0.5 horas 
 | 08/OCT | 01 | Actualizar formato del repositorio | a-hognose-snake |  0.5 horas | 0.5 horas 
+| 09/OCT | 01 | Implementar la primera historia de usuario | ValeHenriquez |  2 horas | 2.5 horas
+| 10/OCT | 01 | Actualizar repositorio | a-hognose-snake |  0.5 horas | 0.5 horas
+| 11/OCT | 01 | Escribir informe de la entrega | a-hognose-snake |  2 horas | 3 horas
+| 11/OCT | 01 | Actualizar repositorio nuevamente| a-hognose-snake |  0.5 horas | 2 horas
+| 11/OCT | 01 | Publicar branch y tag del release 0.1| a-hognose-snake |  0.5 horas | 0.5 horas
+| 11/OCT | 01 | Actualizar bitácora| a-hognose-snake |  0.5 horas | 0.5 horas
+
