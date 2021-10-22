@@ -1,6 +1,6 @@
 ![UCN](images/60x60-ucn-negro.png)
 
-
+# No terminado. Hay que actualizar todo.
 # Informe Técnico 
 ## Curso: Estructura de datos
 ### Implementación de la primera historia de usuario

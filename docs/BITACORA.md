@@ -17,4 +17,10 @@
 | 11/OCT | 01 | Actualizar repositorio nuevamente| a-hognose-snake |  0.5 horas | 2 horas
 | 11/OCT | 01 | Publicar branch y tag del release 0.1| a-hognose-snake |  0.5 horas | 0.5 horas
 | 11/OCT | 01 | Actualizar bitácora| a-hognose-snake |  0.5 horas | 0.5 horas
+| 20/OCT | 02 | Implementar detección de rostros en un vídeo | ValeHenriquez |  2 horas | 3 horas
+| 21/OCT | 02 | Configurar opencv environment en CLion y MacOs| a-hognose-snake |  2 horas | 2.5 horas
+| 21/OCT<br/>22/OCT | 02 | Implementar linked list, nodo y  inserción | a-hognose-snake<br />ValeHenriquez |  5 horas | 5 horas
+| 22/OCT | 02 | Actualizar bitácora| a-hognose-snake |  0.5 horas | 0.5 horas
+| 22/OCT | 02 | Publicar branch| a-hognose-snake |  0.5 horas | 0.5 horas
+| 22/OCT | 02 | Actualizar repositorio | a-hognose-snake |  0.5 horas | 0.5 horas
 

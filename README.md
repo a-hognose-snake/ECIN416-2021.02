@@ -1,6 +1,6 @@
 ![UCN](docs/images/60x60-ucn-negro.png)
 
-
+# No terminado. Hay que actualizar todo.
 # Proyecto: Sistema de Vigilancia Basado en el Reconocimiento de Caras Usando OpenCV y C++
 ## Curso: Estructura de datos
 

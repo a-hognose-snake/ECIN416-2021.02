@@ -1,0 +1,3 @@
+/Users/a_hognose_snake/CLionProjects/Face Detection and Tracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/a_hognose_snake/CLionProjects/Face Detection and Tracking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/a_hognose_snake/CLionProjects/Face Detection and Tracking/cmake-build-debug/CMakeFiles/Face_Detection_and_Tracking.dir
