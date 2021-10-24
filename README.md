@@ -1,6 +1,5 @@
 ![UCN](docs/images/60x60-ucn-negro.png)
 
-# No terminado. Hay que actualizar todo.
 # Proyecto: Sistema de Vigilancia Basado en el Reconocimiento de Caras Usando OpenCV y C++
 ## Curso: Estructura de datos
 
@@ -22,11 +21,19 @@ menor, y debe indicar número de identidad y los intervalos donde esa identidad 
 - Se implementó la primera historia de
 usuario usando programación orientada a objetos en C++. 
     > COMO guardia QUIERO observar todas las caras detectadas en pantalla identificadas por un rectángulo de color rojo PARA observar visualmente las caras que fueron correctamente detectadas por el algoritmo.
+    
+ #### Segunda Parte 
+- Se implementó la segunda historia de
+usuario usando programación orientada a objetos en C++. 
+    > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
 
 - Se creó un branch del código y
 dejó un tag con el nombre: ”release 0.1”.
 
     <Colocar alguna imágen de la primera parte funcionando>
+-Se creo un nuevo tag con el nombre "release 0,1"
+
+    <Colocar alguna imágen de la segunda parte funcionando>
 
 ### Documentos
 
