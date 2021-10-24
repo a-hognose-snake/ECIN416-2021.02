@@ -29,10 +29,9 @@ usuario usando programación orientada a objetos en C++.
 
 - Se creó un branch del código y
 dejó un tag con el nombre: ”release 0.1”.
-
     ![image](https://user-images.githubusercontent.com/89618326/138577405-a33d7eec-24b5-4a01-8d9e-cb872083f748.png)
--Se creo un nuevo tag con el nombre "release 0,1"
-
+    
+-Se creo un nuevo tag con el nombre "release 0.2"
     ![image](https://user-images.githubusercontent.com/89618326/138577427-f9243dcf-fba8-473c-974d-952dd47c2f86.png)
 
 ### Documentos
