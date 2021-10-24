@@ -30,7 +30,7 @@ dejó un tag con el nombre: ”release 0.1”.
 - Se implementó la primera y segunda
 historia de usuario usando programación orientada a objetos en C++. Se implementó una
 lista enlazada para guardar los rostros detectados en el vídeo. 
-    > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
+    > COMO guardia QUIERO observar todas las caras detectadas en pantalla identificadas por un rectángulo de color rojo PARA observar visualmente las caras que fueron correctamente detectadas por el algoritmo.
 
     > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido vistas por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
 
