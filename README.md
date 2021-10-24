@@ -21,17 +21,22 @@ menor, y debe indicar número de identidad y los intervalos donde esa identidad 
 - Se implementó la primera historia de
 usuario usando programación orientada a objetos en C++. 
     > COMO guardia QUIERO observar todas las caras detectadas en pantalla identificadas por un rectángulo de color rojo PARA observar visualmente las caras que fueron correctamente detectadas por el algoritmo.
-    
- #### Segunda Parte 
-- Se implementó la segunda historia de
-usuario usando programación orientada a objetos en C++. 
-    > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
-
 - Se creó un branch del código y
 dejó un tag con el nombre: ”release 0.1”.
+
     ![image](https://user-images.githubusercontent.com/89618326/138577405-a33d7eec-24b5-4a01-8d9e-cb872083f748.png)
     
--Se creo un nuevo tag con el nombre "release 0.2"
+ #### Segunda Parte 
+- Se implementó la primera y segunda
+historia de usuario usando programación orientada a objetos en C++. Se implementó una
+lista enlazada para guardar los rostros detectados en el vídeo. 
+    > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
+
+    > COMO guardia QUIERO observar las últimas cinco identidades que más tiempo han sido vistas por el sistema PARA para las últimas personas que más tiempo pasan por la cámara de video o que están en la secuencia de video.
+
+
+- Se creo un nuevo tag con el nombre "release 0.2"
+
     ![image](https://user-images.githubusercontent.com/89618326/138577427-f9243dcf-fba8-473c-974d-952dd47c2f86.png)
 
 ### Documentos
