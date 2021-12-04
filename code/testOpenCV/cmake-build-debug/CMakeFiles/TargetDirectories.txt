@@ -1,0 +1,3 @@
+/Users/a_hognose_snake/CLionProjects/testOpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/a_hognose_snake/CLionProjects/testOpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/a_hognose_snake/CLionProjects/testOpenCV/cmake-build-debug/CMakeFiles/testOpenCV.dir
