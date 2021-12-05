@@ -1,5 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/a_hognose_snake/CLionProjects/testOpenCV
--- Found OpenCV: /usr/local/Cellar/opencv/4.5.3_3 (found version "4.5.3") 
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/a_hognose_snake/CLionProjects/testOpenCV/cmake-build-debug
