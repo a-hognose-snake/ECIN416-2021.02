@@ -31,3 +31,13 @@
 | 04/DIC | 03 | Implementar la #3 historia de usuario | a-hognose-snake<br />ValeHenriquez |  1.5 horas | 2.5 horas
 | 04/DIC | 03 | Escritura de los .md del Repo | a-hognose-snake |  2 horas | 2 horas
 | 04/DIC | 03 | Terminar detalles de entrega | a-hognose-snake<br />ValeHenriquez |  2 horas | 2 horas
+| 06/DIC | FINAL | Dividimos tareas para la última entrega | a-hognose-snake<br />ValeHenriquez |  1 horas | 1 horas
+| 08/DIC | FINAL | Edito código de la entrega 3 para usar solo árboles y cumplir los requerimientos de las historias que faltaban | ValeHenriquez |  3 horas | 4 horas
+| 10/DIC | FINAL | Probamos diferentes ideas de implementación | a-hognose-snake<br />ValeHenriquez |  5 horas | 5 horas
+| 17/DIC | FINAL | Implementó un Stack para poder manejar los datos del algoritmo de reconocimiento en el árbol | ValeHenriquez |  5 horas | 5 horas
+| 18/DIC | FINAL | Implementó la escritura de .txt para crear registro | ValeHenriquez  |  2 horas | 2 horas
+| 18/DIC | FINAL | Se actualizaron los readme del branch | a-hognose-snake |  1 horas | 1 horas
+| 18/DIC | FINAL | Se termino el informe final | a-hognose-snake |  1 horas | 1.5 horas
+| 18/DIC | FINAL | Se grabó el video explicativo del funcionamiento del sistema y el algoritmo | a-hognose-snake<br />ValeHenriquez |  1 horas | 1.5 horas
+
+

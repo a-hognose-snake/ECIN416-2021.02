@@ -52,6 +52,13 @@ lista enlazada para guardar los rostros detectados en el vídeo en orden.
     ![image](docs/images/img1.png)
     ![image](docs/images/img2.png)
 
+#### Entrega Final
+- Se implementó todas las historias de usuarios requeridas. 
+    ![image](docs/images/consola.jpeg)
+    ![image](docs/images/id.jpeg)
+- Se creó un branch del código y se dejó un tag con el nombre: ”release 1.0”. 
+- Se creó un video explicativo de 10 minutos. Se explicaron los algoritmos finales utilizados y mostró su funcionamiento.
+
 ### Documentos
 
 * [Reporte Técnico](docs/README.md)
