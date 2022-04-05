@@ -1,0 +1,19 @@
+Identidades:
+* 6
+	29frames
+	Caras/6.png
+* 5
+	29frames
+	Caras/5.png
+* 4
+	29frames
+	Caras/4.png
+* 3
+	29frames
+	Caras/3.png
+* 2
+	59frames
+	Caras/2.png
+* 1
+	59frames
+	Caras/1.png
